@@ -241,13 +241,13 @@ def main():
     
     
     print('--------------------------------------------------------------------------------------')
-    # ------------ view 1 ----------------- image
+    # ------------ view 1 -----------------
     scores_view1, target, top1_view1, top3_view1, top5_view1, top10_view1 = validate(loader_view1, model_view1, args)
     print('--- model_view1-image: ','|','TestACC@1:',top1_view1.avg,'|','|','ACC@3:',top3_view1.avg,'|','|','ACC@5:',top5_view1.avg,'|','|','ACC@10:',top10_view1.avg,'|')
-    # ------------ view 2 ----------------- binary
+    # ------------ view 2 -----------------
     scores_view2, target_nouse, top1_view2, top3_view2, top5_view2, top10_view2 = validate(loader_view2, model_view2, args)
     print('--- model_view2-image: ','|','TestACC@1:',top1_view2.avg,'|','|','ACC@3:',top3_view2.avg,'|','|','ACC@5:',top5_view2.avg,'|','|','ACC@10:',top10_view2.avg,'|')
-    # ------------ view 3 ----------------- skeleton
+    # ------------ view 3 -----------------
     scores_view3, target_nouse, top1_view3, top3_view3, top5_view3, top10_view3 = validate(loader_view3, model_view3, args)
     print('--- model_view3-image: ','|','TestACC@1:',top1_view3.avg,'|','|','ACC@3:',top3_view3.avg,'|','|','ACC@5:',top5_view3.avg,'|','|','ACC@10:',top10_view3.avg,'|')
 

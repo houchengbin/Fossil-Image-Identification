@@ -1,8 +1,7 @@
 '''
-multiview_maker
-create multi-view images of origin images 
-used for image augmentation
-
+multiview.py
+create multi-view images of original images 
+use for image augmentation
 '''
 
 import argparse
