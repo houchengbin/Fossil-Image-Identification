@@ -1,1 +1,4 @@
-init
+# Fusulinid-images-2400
+Fusulinid-images-2400 is used as an example dataset to demonstrate the fossil identification problem. It consists of 2,400 thin-slice images of fusulinid individuals including 291 microscope photos and 2109 scanned images from the literature. Images are stored as PNG files with the transparency channel annotating the outline of the fossils and labeled according to their species name and data source. The 2400 images are selected equally from 16 genera of all six fusulinid families including Fusulinidae, Schwagerinidae, Ozawainellidae, Schubertellidae, Neoschwagerinidae, and Verbeekinidae. Images of holotypes, paratypes, cotypes, and syntypes of the selected species are preferably chosen as they better represent the described morphological features. Generic level is chosen in this work.
+
+The dataset is available from DDE Repository (url=https://repository.deep-time.org/detail/1591288605468725250; DOI=https://doi.org/10.12297/dpr.dde.202211.5).
