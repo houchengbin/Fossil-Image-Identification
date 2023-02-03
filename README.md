@@ -35,7 +35,7 @@ Please see the [README.md under the 2400_fus folder](https://github.com/houcheng
 
 ## Data Preprocessing
 ```bash
-python datasplit.py --input ./2400_fus --output ./data/Original_img --train-rate 0.734 --val-rate 0.5  # seed=2022 with Ubuntu 18.04.5 LTS for the data used in our paper
+python datasplit.py --input ./2400_fus --output ./data/Original_img --train-rate 0.734 --val-rate 0.5  # seed=2022 with Microsoft Windows 11 version 21H2 for the data used in our paper
 python multiview.py --input ./data/Original_img --output ./data --gray --binary --blocksize 41 --C 5 --skeletonize
 ```
 
