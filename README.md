@@ -39,4 +39,14 @@ python datasplit.py --input ./2400_fus --output ./data/Original_img --train-rate
 python multiview.py --input ./data/Original_img --output ./data --gray --binary --blocksize 41 --C 5 --skeletonize
 ```
 
+## Reference
+If you find [this work](https://arxiv.org/abs/2302.08062) is useful, please consider the following citation.
+```
+@article{hou2023fossil,
+  title={Fossil Image Identification using Deep Learning Ensembles of Data Augmented Multiviews},
+  author={Hou, Chengbin and Lin, Xinyu and Huang, Hanhui and Xu, Sheng and Fan, Junxuan and Shi, Yukun and Lv, Hairong},
+  journal={arXiv preprint arXiv:2302.08062},
+  year={2023}
+}
+```
 
