@@ -1,6 +1,6 @@
-# Fossil-ID-Multiview-Deep-Ensembles
+# Fossil Image Identification (Classification)
 ### Fossil Image Identification using Deep Learning Ensembles of Data Augmented Multiviews
-Fossil identification is a substantial part of evolutionary studies. Automatic identification models, especially recent advances based on deep learning, heavily rely on the quantity and quality of labeled images to train the models. However, the images are particularly limited for paleontologists due to the fossil preservation, conditioned sampling, and expensive and inconsistent label annotation by domain experts. To address these challenges, we proposed an innovative multiview ensemble framework that collects the multiple views of each fossil specimen image of reflecting its different characteristics to train multiple base models and makes the final decision via soft voting. 
+Identification of fossil species is crucial to evolutionary studies. Recent advances from deep learning have shown promising prospects in fossil image identification. However, the quantity and quality of labeled fossil images are often limited due to fossil preservation, conditioned sampling, and expensive and inconsistent label annotation by domain experts, which pose great challenges to training deep learning based image classification models. To address these challenges, we follow the idea of the wisdom of crowds and propose a multiview ensemble framework, which collects Original (O), Gray (G), and Skeleton (S) views of each fossil image reflecting its different characteristics to train multiple base models, and then makes the final decision via soft voting.
 
 ## Reference
 If you find this work is useful, please consider the following citation.
