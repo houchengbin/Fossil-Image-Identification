@@ -2,6 +2,18 @@
 ### Fossil Image Identification using Deep Learning Ensembles of Data Augmented Multiviews
 Fossil identification is a substantial part of evolutionary studies. Automatic identification models, especially recent advances based on deep learning, heavily rely on the quantity and quality of labeled images to train the models. However, the images are particularly limited for paleontologists due to the fossil preservation, conditioned sampling, and expensive and inconsistent label annotation by domain experts. To address these challenges, we proposed an innovative multiview ensemble framework that collects the multiple views of each fossil specimen image of reflecting its different characteristics to train multiple base models and makes the final decision via soft voting. 
 
+## Reference
+If you find this work is useful, please consider the following citation.
+```
+@article{hou2023fossil,
+  title={Fossil Image Identification using Deep Learning Ensembles of Data Augmented Multiviews},
+  author={Hou, Chengbin and Lin, Xinyu and Huang, Hanhui and Xu, Sheng and Fan, Junxuan and Shi, Yukun and Lv, Hairong},
+  journal={Methods in Ecology and Evolution},
+  year={2023},
+  pages={to appear},
+}
+```
+
 ## Install
 ```bash
 conda create -n MulEnsID python=3.10.8    
@@ -37,16 +49,5 @@ Please see the [README.md under the 2400_fus folder](https://github.com/houcheng
 ```bash
 python datasplit.py --input ./2400_fus --output ./data/Original_img --train-rate 0.734 --val-rate 0.5  # seed=2022 with Microsoft Windows 11 version 21H2 for the data used in our paper
 python multiview.py --input ./data/Original_img --output ./data --gray --binary --blocksize 41 --C 5 --skeletonize
-```
-
-## Reference
-If you find [this work](https://arxiv.org/abs/2302.08062) is useful, please consider the following citation.
-```
-@article{hou2023fossil,
-  title={Fossil Image Identification using Deep Learning Ensembles of Data Augmented Multiviews},
-  author={Hou, Chengbin and Lin, Xinyu and Huang, Hanhui and Xu, Sheng and Fan, Junxuan and Shi, Yukun and Lv, Hairong},
-  journal={arXiv preprint arXiv:2302.08062},
-  year={2023}
-}
 ```
 
