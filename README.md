@@ -9,10 +9,10 @@ If you find this work is useful, please consider the following citation.
   title={Fossil Image Identification using Deep Learning Ensembles of Data Augmented Multiviews},
   author={Hou, Chengbin and Lin, Xinyu and Huang, Hanhui and Xu, Sheng and Fan, Junxuan and Shi, Yukun and Lv, Hairong},
   journal={Methods in Ecology and Evolution},
-  year={2023},
-  pages={to appear},
+  year={2023}
 }
 ```
+paper link: https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14229
 
 ## Install
 ```bash
